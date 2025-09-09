@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance Merch by Far - Apparel & Accessories for Dancers</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Reverted Google Fonts back to Playfair Display for headings -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Reverted custom font class to Playfair Display */
+        .font-playfair {
+            font-family: 'Playfair Display', serif;
+        }
+        .hero-bg {
+            background-size: cover;
+            background-position: center;
+        }
+        .testimonial-card {
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed top-0 left-0 right-0 z-50 text-gray-700">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <!-- Replaced text with your image logo -->
+            <a href="#">
+                <img src="https://cdn11.bigcommerce.com/s-6dmaxdsjqa/images/stencil/original/image-manager/dance-merch-by-far-logo.png?t=1757353046" alt="Dance Merch by Far Logo" class="h-14">
+            </a>
+            <nav class="hidden md:flex space-x-8 items-center">
+                <a href="#featured" class="hover:text-pink-400 transition-colors font-medium">Featured</a>
+                <a href="#about" class="hover:text-pink-400 transition-colors font-medium">Our Story</a>
+                <a href="#testimonials" class="hover:text-pink-400 transition-colors font-medium">Testimonials</a>
+                <!-- Updated button with gradient to match logo -->
+                <a href="https://shopsbyfar.com/dance-shop/" target="_blank" class="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-bold py-2 px-6 rounded-full transition-all duration-300 transform hover:scale-105">
+                    Shop Now
+                </a>
+            </nav>
+            <button id="mobile-menu-button" class="md:hidden text-3xl">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pt-2 pb-4">
+            <a href="#featured" class="block py-2 hover:text-pink-400 font-medium">Featured</a>
+            <a href="#about" class="block py-2 hover:text-pink-400 font-medium">Our Story</a>
+            <a href="#testimonials" class="block py-2 hover:text-pink-400 font-medium">Testimonials</a>
+             <!-- Updated mobile button with gradient -->
+            <a href="https://shopsbyfar.com/dance-shop/" target="_blank" class="block mt-4 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-bold py-2 px-4 rounded-full text-center">Shop Now</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg min-h-screen flex items-center justify-center text-center pt-20">
+        <div class="container mx-auto px-6">
+            <!-- Foreground Content -->
+            <div>
+                 <!-- Reverted heading font back to Playfair Display -->
+                <h1 class="text-5xl md:text-7xl font-playfair font-bold mb-4 leading-tight">Unique Designs for the Dedicated Dancer<br><span class="text-4xl md:text-6xl text-gray-300">and Their Biggest Supporters</span></h1>
+                <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-gray-200">Express your passion with our unique apparel and accessories.</p>
+                <!-- Updated button with gradient to match logo -->
+                <a href="https://shopsbyfar.com/dance-shop/" target="_blank" class="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-bold py-4 px-10 rounded-full text-lg transition-all duration-300 transform hover:scale-105 inline-block">
+                    Explore The Collection
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="featured" class="py-20 bg-gray-800">
+        <div class="container mx-auto px-6">
+            <!-- Reverted heading font back to Playfair Display -->
+            <h2 class="text-5xl font-playfair font-bold text-center mb-12">Featured Designs</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product Card 1 -->
+                <div class="bg-gray-900 rounded-lg overflow-hidden shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
+                    <img src="https://cdn11.bigcommerce.com/s-6dmaxdsjqa/images/stencil/original/image-manager/t-shirts-for-dance-page.jpg?t=1757354034" alt="Featured Dance T-Shirt" class="w-full h-80 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Signature Dance Tee</h3>
+                        <p class="text-gray-400 mb-4">Soft, breathable, and designed for movement. The perfect tee for any dancer.</p>
+                        <!-- Updated link style with gradient text -->
+                        <a href="https://shopsbyfar.com/dance-shop/" target="_blank" class="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400 hover:opacity-80 transition-opacity">Shop This Look &rarr;</a>
+                    </div>
+                </div>
+                <!-- Product Card 2 -->
+                <div class="bg-gray-900 rounded-lg overflow-hidden shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
+                    <img src="https://cdn11.bigcommerce.com/s-6dmaxdsjqa/images/stencil/original/image-manager/tote-bag-for-dance-page.jpg?t=1757354034" alt="Featured Dance Tote Bag" class="w-full h-80 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Rehearsal Ready Tote</h3>
+                        <p class="text-gray-400 mb-4">Carry all your essentials in a bag that shows off your love for dance.</p>
+                         <!-- Updated link style with gradient text -->
+                        <a href="https://shopsbyfar.com/dance-shop/" target="_blank" class="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400 hover:opacity-80 transition-opacity">View Accessories &rarr;</a>
+                    </div>
+                </div>
+                <!-- Product Card 3 -->
+                <div class="bg-gray-900 rounded-lg overflow-hidden shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
+                    <img src="https://cdn11.bigcommerce.com/s-6dmaxdsjqa/images/stencil/original/image-manager/hoodie-for-dance-page.jpg?t=1757354033" alt="Featured Dance Hoodie" class="w-full h-80 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Flow State Hoodie</h3>
+                        <p class="text-gray-400 mb-4">Stay warm and inspired during your warm-ups and cool-downs.</p>
+                         <!-- Updated link style with gradient text -->
+                        <a href="https://shopsbyfar.com/dance-shop/" target="_blank" class="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400 hover:opacity-80 transition-opacity">Browse Outerwear &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section id="about" class="py-20">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2">
+                <img src="https://placehold.co/800x600/111827/ffffff?text=Our+Design+Studio" alt="Founder of Dance Merch by Far" class="rounded-lg shadow-2xl">
+            </div>
+            <div class="md:w-1/2 text-center md:text-left">
+                <!-- Reverted heading font back to Playfair Display -->
+                <h2 class="text-5xl font-playfair font-bold mb-4">From Our Hearts to Your Wardrobe</h2>
+                <p class="text-gray-300 mb-4 leading-relaxed">
+                    At Dance Merch by Far, we're more than just a clothing brand; we're a community of artists. Every design is born from a genuine love for dance, created by our team to capture the elegance, strength, and emotion of the art form. We use high-quality services to bring these exclusive designs to life, ensuring each piece you receive is made just for you.
+                </p>
+                <p class="text-gray-300 leading-relaxed">
+                    Our mission is to provide dancers with apparel that they can wear with pride, pieces that are as unique and expressive as their own movements.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-gray-800">
+        <div class="container mx-auto px-6">
+             <!-- Reverted heading font back to Playfair Display -->
+            <h2 class="text-5xl font-playfair font-bold text-center mb-12">What Our Dancers Are Saying</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                 <!-- Testimonial 1 -->
+                <div class="testimonial-card border border-gray-700 p-8 rounded-lg text-center">
+                    <p class="text-gray-300 mb-4 italic">"The designs are so unique and beautiful! I always get compliments on my hoodie at the studio. The quality is fantastic."</p>
+                     <!-- Updated text style with gradient -->
+                    <p class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">- Jessica L.</p>
+                </div>
+                 <!-- Testimonial 2 -->
+                <div class="testimonial-card border border-gray-700 p-8 rounded-lg text-center">
+                    <p class="text-gray-300 mb-4 italic">"Finally, dancewear that gets it. The tote bag is my absolute favorite, it fits everything I need and the design is just so me."</p>
+                     <!-- Updated text style with gradient -->
+                    <p class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">- Chloe M.</p>
+                </div>
+                 <!-- Testimonial 3 -->
+                <div class="testimonial-card border border-gray-700 p-8 rounded-lg text-center">
+                    <p class="text-gray-300 mb-4 italic">"I love that this is a small business with such creative designs. Shipping was fast and the t-shirt is super soft. Will be buying more!"</p>
+                     <!-- Updated text style with gradient -->
+                    <p class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">- Alex R.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="py-20 text-center">
+         <div class="container mx-auto px-6">
+             <!-- Reverted heading font back to Playfair Display -->
+            <h2 class="text-5xl font-playfair font-bold mb-4">Ready to Find Your New Favorite Piece?</h2>
+            <p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">Shop our full collection of custom-designed apparel and accessories. Wear your passion.</p>
+            <!-- Updated button with gradient to match logo -->
+            <a href="https://shopsbyfar.com/dance-shop/" target="_blank" class="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-bold py-4 px-10 rounded-full text-lg transition-all duration-300 transform hover:scale-105 inline-block">
+                Visit The Store
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800 py-8">
+        <div class="container mx-auto px-6 text-center text-gray-400">
+            <p>&copy; 2024 Dance Merch by Far. All Rights Reserved.</p>
+            <p class="mt-2">Unique Designs for the Dedicated Dancer.</p>
+            <!-- Add social media links here if you have them -->
+            <!-- e.g., <div class="mt-4 flex justify-center space-x-4">...</div> -->
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+
+</body>
+</html>
